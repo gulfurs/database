@@ -9,7 +9,7 @@ class StudentsTable {
     this.profilePicture = "https://lol";
   }
 
-  static String CREATE_TABLE() {
+  public String CREATE_TABLE() {
     return "CREATE TABLE students_table ("
       + "studentNumber INT(255),"
       + "name VARCHAR(255),"

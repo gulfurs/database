@@ -17,7 +17,7 @@ class Knap {
     heightSize = heightSize_;
     kant = 10;
     name = name_;
-    tid = new Timer(1);
+    tid = new Timer(0.1);
   }
 
   void update() {

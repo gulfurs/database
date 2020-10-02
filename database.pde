@@ -1,12 +1,16 @@
 import de.bezier.data.sql.*;
 
 SQLite db;
+Knap nyTabel;
 
 void setup() {
+  size(600,600);
+  nyTabel = new Knap(width*0.5,height*0.5,width*0.5,height*0.5,"nyTabel");
   db = new SQLite(this, "data/test.db");  // open database file
 
+
   if (db.connect()) {
-    db.query(StudentsTable.CREATE_TABLE());
+   // db.query(StudentsTable.CREATE_TABLE());
 
     //db.query();
     //db.saveToDatabase("students_table", new StudentsTable());
@@ -23,4 +27,26 @@ void setup() {
     //  println(t);
     //}
   }
+}
+
+
+
+void draw () {
+  background(200);
+  nyKlasse();
+  knapper();
+  
+}
+
+
+void knapper(){
+  nyTabel.update();
+  
+}
+
+void nyKlasse () {
+  if ( nyTabel.clicked() ) {
+    println("Der er lavet en ny tabel");
+  }
+
 }
