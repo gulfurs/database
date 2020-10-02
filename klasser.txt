@@ -1,0 +1,38 @@
+L 1a
+L Brom
+L 2a1
+L 3a
+L 1b
+L Chrom
+L 2a2
+L 3ak
+L 1c
+L Dubnium
+L 2b1
+L 3b1
+L 1d
+L Erbium
+L 2b2
+L 3b2
+L 1e
+L Helium
+L 2c
+L 3c Carbon
+L 1h
+L Indium
+L 2d
+L 3d1
+L 1i
+L Krypton
+L 2e Liten
+L 3d2
+L 1k
+L 2h
+L 3e Liten
+L Aluminium
+L 2i Kerm/It
+L 3h
+L Argon
+L 2k
+L 3i
+L Beryllium
