@@ -1,0 +1,65 @@
+Essays,, Michel de Montaigne
+Walden,, Henry David Thoreau
+Confessions,, Augustine
+The Interpretation of Dreams,, Sigmund Freud
+The Prince,, Niccolo Machiavelli
+The Diary of a Young Girl,, Anne Frank
+The Autobiography of Malcolm X,, Alex Haley
+The Confessions of Jean-Jacques Rousseau,, Jean-Jacques Rousseau
+Silent Spring,, Rachel Carson
+The Complete Works of Plato,, Plato
+Pensées,, Blaise Pascal
+On the Origin of Species,, Charles Darwin
+In Cold Blood,, Truman Capote
+The Elements of Style,, William Strunk, Jr, E. B. White
+The Double Helix: A Personal Account of the Discovery of the Structure of DNA,, James D. Watson
+Relativity,, Albert Einstein
+Look Homeward, Angel,, Thomas Wolfe
+Homage to Catalonia,, George Orwell
+Speak, Memory,, Vladimir Nabokov
+The General Theory of Employment, Interest and Money,, John Maynard Keynes
+Democracy in America,, Alexis de Tocqueville
+The Second World War,, Winston Churchill
+Communist Manifesto,, Karl Marx, Friedrich Engels
+The Education of Henry Adams,, Henry Adams
+Out of Africa,, Isak Dinesen
+Das Kapital,, Karl Marx
+The Structure of Scientific Revolutions,, Thomas Kuhn
+Dispatches,, Michael Herr
+The Gulag Archipelago,, Aleksandr Solzhenitsyn
+I Know Why the Caged Bird Sings,, Maya Angelou
+The Civil War,, Shelby Foote
+The Essential Writings of Ralph Waldo Emerson,, Ralph Waldo Emerson
+If This Is a Man,, Primo Levi
+The Histories of Herodotus,, Herodotus
+The Principles of Psychology,, Will James
+Collected Essays of George Orwell,, George Orwell
+The Electric Kool-Aid Acid Test,, Tom Wolfe
+The Art of War,, Sun Zi
+Civilization and Its Discontents,, Sigmund Freud
+The Death and Life of Great American Cities,, Jane Jacobs
+Meditations,, Marcus Aurelius
+The Life of Samuel Johnson,, James Boswell
+Selected Essays of T. S. Eliot,, T. S. Eliot
+A Room of One's Own,, Virginia Woolf
+The Right Stuff,, Tom Wolfe
+The Road to Serfdom,, Friedrich von Hayek
+Leviathan,, Thomas Hobbes
+R. E. Lee,, Douglas Southall Freeman
+Discourse on Method,, Rene Descartes
+The Varieties of Religious Experience,, Will James
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
