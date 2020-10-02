@@ -1,0 +1,186 @@
+L Brom 01, Adam Houlby, Jartved
+L Brom 02, Alexander Svenstrup, Poulsen
+L Brom 03, Andrea Ljungqvist, Andersen
+L Brom 04, Anna Voss, Jacobsen
+L Brom 05, Anton, Emil
+L Brom 06, Asmus Bovbjerg, Winther
+L Brom 07, Bertram Lamhauge, Christensen
+L Brom 08, Christian Alexander, Halberg
+L Brom 09, Deniz Ismail, Gür
+L Brom 10, Emil Eir, Frederiksen
+L Brom 11, Frej Markus Bearden, Neergaard
+L Brom 12, Freja Pedrero, Thoning
+L Brom 13, Ham, Ndikumana
+L Brom 14, Ida Sofie, Bjørstrup
+L Brom 15, Isak Snorri, Boeskov
+L Brom 16, Jonathan Dyrekilde, Sommerlund
+L Brom 17, Lasse, Lambrecht
+L Brom 18, Line Friis, Fléron
+L Brom 19, Lucas Rosenørn, Kaavé
+L Brom 20, Magnus Lunn, Erstad
+L Brom 21, Markus Hougaard, Chakera
+L Brom 22, Maximilian, Inglot
+L Brom 23, Oscar, Olufsen
+L Brom 24, Selma Sofie Traagaard, Schwaner
+L Brom 25, Shadi Al, Khatib
+L Brom 26, Simon Bjerregaard Levin, Sørensen
+L Brom 27, Steven Kim, Klee
+L Brom 28, Viggo Vincent, Bjerre-Nielsen
+
+L 2a1 01, Andy Arnt, Dickie
+L 2a1 02, Aske, Sylvest
+L 2a1 03, Benjamin Boholt, Hilton
+L 2a1 04, Caroline Fink, Vadsholt
+L 2a1 05, Daníel, Utne
+L 2a1 06, Elias Helgren, Dahl
+L 2a1 07, Emilie, Nyholm-Christensen
+L 2a1 08, Erik Kragh, Lauridsen
+L 2a1 09, Iben Holm, Schmidt
+L 2a1 10, Joep van den, Brink
+L 2a1 11, Johannes Friborg, Devantier
+L 2a1 12, Jóhannes, Sigvardsen
+L 2a1 13, Mads, Gabrielsen
+L 2a1 14, Magnus Henckell, Wikke
+L 2a1 15, Malthe Lundgren, Gerstrøm
+L 2a1 16, Marius Johan, Schlichtkrull
+L 2a1 17, Oliver Elsvor, Andersen
+L 2a1 18, Philip, Rying
+L 2a1 19, Rune Chemnitz, Thygesen
+L 2a1 20, Sara Birkedal Dudal, Jensen
+L 2a1 21, Theiss Overholt, Pjetursson
+L 2a1 22, Vitus, Birck
+
+L 3a 01, Alexander, Schønning
+L 3a 02, Andreas Lybecker, Larsen
+L 3a 03, Asger Ren, Nordbjerg
+L 3a 04, August Emil Borg, Ljørring
+L 3a 05, August Mølby, Prahl
+L 3a 06, Cecilia Gottschalk, Nygaard
+L 3a 07, Christian Willadsen, Skov
+L 3a 08, Christoffer, Berg
+L 3a 09, Christoffer Fræhr, Mikkelsen
+L 3a 10, Emil Pfeiffer, Kristensen
+L 3a 11, Filip Kikkenborg, Osmark
+L 3a 12, Frederik Rønn, Siiger
+L 3a 13, Frederik Ørgaard Riis, Rasmussen
+L 3a 14, Johannes Christian Riskjær, Jakobsen
+L 3a 15, Laura, Steffin
+L 3a 16, Lin, Bigom-Eriksen
+L 3a 17, Mads Thustrup, Kreiner
+L 3a 18, Mathias Holtehus, Geil
+L 3a 19, Mikkel Cornelius, Buch-Hansen
+L 3a 20, Simon Lykke, Andersen
+L 3a 21, Simon Offenberg, Lamberth
+L 3a 22, Thomas Schlaikjer, Holst
+L 3a 23, Thorbjørn Valdemar Ræder, Clausen
+L 3a 24, Toril Ull, Harremoës
+L 3a 25, Ulf Michael Mickiewicz, Andersen
+
+L Chrom 01, Annemarie, Østergaard
+L Chrom 02, Asger Wiinblad, Schmidt
+L Chrom 03, Asta Bru, Petersen
+L Chrom 04, Christian Alexander, Dalgaard
+L Chrom 05, Danial Aurang Zeb, Choudry
+L Chrom 06, Holger Hegedüs, Olsen
+L Chrom 07, Isabella Skalbo, Albrechtsen
+L Chrom 08, Isha, Ahmad
+L Chrom 09, Joel Arthur, Hopkins
+L Chrom 10, Johan Maack, Svendsen
+L Chrom 11, Johannes Jensby, Lange
+L Chrom 12, Jonathan, Seyfarth
+L Chrom 13, Julian Søren, Techt
+L Chrom 14, Karl Helge August, Nørholm
+L Chrom 15, Kristian Lindholt, Moffett
+L Chrom 16, Kristoffer Wienmann Biehl, Christiansen
+L Chrom 17, Lauritz Rasmussen, Hundewadt
+L Chrom 18, Linus, Preusser
+L Chrom 19, Lucas Carl, Kjeldstrøm
+L Chrom 20, Mads Elias Kær, Kold
+L Chrom 21, Matias Martini, Jensen
+L Chrom 22, Nikolaj Levring, Larsen
+L Chrom 23, Nizar, Alhabash
+L Chrom 24, Peter Fabio Baagøe, Stirpe
+L Chrom 25, Rebekka Rosa, Lilholt
+L Chrom 26, Sean, Ha
+L Chrom 27, Sebastian Adler, Nielsen
+L Chrom 28, Simon Boelskov, Meyer
+L Chrom 29, Sofya, Shirokova
+L Chrom 30, Yuejun, Yu
+
+L 2a2 01, Albert Halili, Larsen
+L 2a2 02, Bertram Lee, Kierkegaard
+L 2a2 03, Christian Thomas, Brent-Buchholz
+L 2a2 04, Emil Bjerregaard, Pedersen
+L 2a2 05, Erik Pagh, Goodwin
+L 2a2 06, Frederik Cayré, Hede-Andersen
+L 2a2 07, Frederik Hvarregaard, Andersen
+L 2a2 08, Halfdan Trøjborg, Thomsen
+L 2a2 09, Jonas Borup, Randløv
+L 2a2 10, Kian, Shahkoopa
+L 2a2 11, Konrad Skovmand, Olsen
+L 2a2 12, Michael Hilding, Estes
+L 2a2 13, Nicolai, Sode-Olsen
+L 2a2 14, Oliver Efe, Kurt
+L 2a2 15, Pelle Schäfer, Domela
+L 2a2 16, Rasmus Faber, Nørgaard
+L 2a2 17, Thor, Fog
+L 2a2 18, Valdemar Bønding, Hansen
+L 2a2 19, Valdemar, Friis
+L 2a2 20, Victor Hagemann, Christensen
+L 2a2 21, Victor, Thoft-Christensen
+L 2a2 22, Viktor Tranto, Bräuner
+L 2a2 23, William Henrik Onsberg, Clausen
+
+L 3ak 01, Albert Lundstrøm, Lademann
+L 3ak 02, Alexander Bo Vincentz, Larsen
+L 3ak 03, Alexander, Paasch
+L 3ak 04, Amalie Harplod, Hansen
+L 3ak 05, Anders Enrico Krog, Petersen
+L 3ak 06, Anders Stampe, Madsen
+L 3ak 07, Asger Søndergaard, Gimsing
+L 3ak 08, Christian Krarup, Riis
+L 3ak 09, Christian Ulrik, Niekrenz
+L 3ak 10, Christoffer, Bognar
+L 3ak 11, Christopher Møller, Sørensen
+L 3ak 12, Daniel Carsten, Brandgaard
+L 3ak 13, Emil Hedegaard, Hansen
+L 3ak 14, Erik Oliver, Josephsen
+L 3ak 15, Frederik Lauritz, Udby
+L 3ak 16, Janus Leonard, Rasmussen
+L 3ak 17, Johannes, Varnes
+L 3ak 18, Julius Gilbert Glahn, Andersen
+L 3ak 19, Lukas Rost, Bjerring-Jensen
+L 3ak 20, Oskar Lanng, Troelsen
+L 3ak 21, Pascal Østerø, Cramon
+L 3ak 22, Rasmus Rosenmejer, Larsen
+L 3ak 23, Thor Frøding, Skipper
+L 3ak 24, Tore Sebastian, Breüner
+
+L Dubnium 01, Albert William, Schmidt, 
+L Dubnium 02, Carl-Henrik Hostrup, Nørgaard, 
+L Dubnium 03, Christian, Slag, 
+L Dubnium 04, Dicte Elefsen, Eriksen, 
+L Dubnium 05, Emilie, Rode, 
+L Dubnium 06, Frederik, Lund, 
+L Dubnium 07, Frederikke Trolle, Hansen, 
+L Dubnium 08, Hjalte Magne Malajas, Adelgaard, 
+L Dubnium 09, Isabella, Wielandt, 
+L Dubnium 10, Jonathan Aagaard, Loua, 
+L Dubnium 11, Julius Willestofte, Berg, 
+L Dubnium 12, Laurits Steen, Andersen, 
+L Dubnium 13, Lucas Xavier, Davis, 
+L Dubnium 14, Lærke Schiött, Rasmussen, 
+L Dubnium 15, Malthe Warberg, Dolmer, 
+L Dubnium 16, Martin, Mejer, 
+L Dubnium 17, Moman, Shafique, 
+L Dubnium 18, Pelle, Blaser-Tauber, 
+L Dubnium 19, Philip, Rydder, 
+L Dubnium 20, Rasmus Holger Bjerg, Felding, 
+L Dubnium 21, Sebastian Ruby, Estrup, 
+L Dubnium 22, Thomas Bonde, Hansen, 
+L Dubnium 23, Tina Ösp, Stage, 
+L Dubnium 24, Tobias Grünbaum, Hoffmann, 
+L Dubnium 25, Tobias Møller, Zenth, 
+L Dubnium 26, Tommy Krogh, Andersen, 
+L Dubnium 27, Viktor Wai Shun Chan, Mac, 
+L Dubnium 28, William Gideon, Petersen
