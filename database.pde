@@ -29,19 +29,15 @@ void setup() {
   }
 }
 
-
-
 void draw () {
   background(200);
   nyKlasse();
   knapper();
 }
 
-
 void knapper() {
   nyTabel.update();
 }
-
 
 void nyKlasse () {
   if ( nyTabel.clicked() ) {
@@ -50,12 +46,8 @@ void nyKlasse () {
   }
 }
 
-
-
 void keyPressed () {
 }
-
-
 
 void cleanConsole () {
   for ( int i = 0; i < 1000; i++) {

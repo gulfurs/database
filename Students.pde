@@ -1,7 +1,11 @@
 class StudentsTable {
   public int studentNumber;
   public String name;
-  public String profilePicture;
+  public String profilePicture; public static final String CREATE_TABLE = "CREATE TABLE students_table ("
+                                      + "studentNumber INT(255),"
+                                      + "name VARCHAR(255),"
+                                      + "profilePicture VARCHAR(255)"
+                                      + ")";
   
   StudentsTable() {
     this.studentNumber = 2;
@@ -9,11 +13,7 @@ class StudentsTable {
     this.profilePicture = "https://lol";
   }
 
-  public String CREATE_TABLE() {
-    return "CREATE TABLE students_table ("
-      + "studentNumber INT(255),"
-      + "name VARCHAR(255),"
-      + "profilePicture VARCHAR(255)"
-      + ")"; 
+  String toString() {
+    return String.format("%s, %s", name, profilePicture);
   }
 }
