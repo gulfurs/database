@@ -8,6 +8,7 @@ Knap indlaesKlasser;
 void setup() {
   size(600, 600);
   db = new SQLite(this, "data/test.db");  // open database file
+
   //Knapper
   nyTabel = new Knap(width*0.05, height*0.05, width*0.1, height*0.1, "nyTabel");
   nulstilles = new Knap(width*0.15, height*0.05, width*0.1, height*0.1, "sletTabel");
@@ -44,6 +45,9 @@ void nyKlasse () {
   if (nyTabel.clicked()) {
     cleanConsole();
     db.query(StudentsTable.CREATE_TABLE);
+    db.query(Books.CREATE_TABLE);
+
+    insertAllData();
     println("Der er lavet en ny tabel");
   }
   if (nulstilles.clicked()) {
@@ -56,6 +60,10 @@ void nyKlasse () {
     //code som indlæser alle klasser
     println("Alle klasser er indlæst");
   }
+}
+
+void insertAllData() {
+  // Indsæt dataen her!
 }
 
 void cleanConsole () {
