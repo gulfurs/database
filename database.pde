@@ -2,11 +2,16 @@ import de.bezier.data.sql.*;
 
 SQLite db;
 Knap nyTabel;
+Knap nulstilles;
+Knap indlaesKlasser;
 
 void setup() {
   size(600, 600);
   db = new SQLite(this, "data/test.db");  // open database file
-  nyTabel = new Knap(width*0.5, height*0.5, width*0.5, height*0.5, "nyTabel");
+  //Knapper
+  nyTabel = new Knap(width*0.05, height*0.05, width*0.1, height*0.1, "nyTabel");
+  nulstilles = new Knap(width*0.15, height*0.05, width*0.1, height*0.1, "sletTabel");
+  indlaesKlasser = new Knap(width*0.25, height*0.05, width*0.1, height*0.1, "IndlæsKlasser");
 
   if (db.connect()) {
     //db.query("INSERT INTO students_table (studentNumber, name, profilePicture)"
@@ -21,7 +26,6 @@ void setup() {
       println(t);
     }
   }
-
 }
 
 void draw () {
@@ -32,25 +36,41 @@ void draw () {
 
 void knapper() {
   nyTabel.update();
+  nulstilles.update();
+  indlaesKlasser.update();
 }
 
 void nyKlasse () {
   if (nyTabel.clicked()) {
     cleanConsole();
-    println("Der er lavet en ny tabel");
     db.query(StudentsTable.CREATE_TABLE);
+    println("Der er lavet en ny tabel");
+  }
+  if (nulstilles.clicked()) {
+    cleanConsole();
+    //code som nulstiller det hele
+    println("Alt er nulstillet");
+  }
+  if (indlaesKlasser.clicked()) {
+    cleanConsole();
+    //code som indlæser alle klasser
+    println("Alle klasser er indlæst");
   }
 }
 
 void cleanConsole () {
   // Lidt en dårlig måde at klargøre konsollen
+  // Nej
   for (int i = 0; i < 1000; i++) println();
 }
 
 
 /*
   TODO: Load text from the .txt files and save them in a database! 
-  TODO: Alt skal kunne nulstilles!
-  TODO: Krypter noget data!
-  TODO: Backup fil der skal kunne indlæses med alt indholdet (det er vel bare .txt filerne dem selv)
-*/
+ TODO: Alt skal kunne nulstilles!
+ TODO: Krypter noget data!
+ TODO: Backup fil der skal kunne indlæses med alt indholdet (det er vel bare .txt filerne dem selv)
+ */
+ 
+ 
+ 
