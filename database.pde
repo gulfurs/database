@@ -54,11 +54,9 @@ void nyKlasse() {
   if (nyTabel.clicked()) {
     cleanConsole();
 
-    db.query(studentsTable.CREATE_TABLE);
-    db.query(classesTable.CREATE_TABLE);
-    db.query(booksTable.CREATE_TABLE);
-
+    createAllTables();
     insertAllData();
+    
     println("Der er lavet en ny tabel");
   }
   if (nulstilles.clicked()) {
@@ -75,6 +73,12 @@ void nyKlasse() {
   }
 }
 
+void createAllTables() {
+  db.query(studentsTable.CREATE_TABLE);
+  db.query(classesTable.CREATE_TABLE);
+  db.query(booksTable.CREATE_TABLE);
+}
+
 void insertAllData() {
   // Indsæt dataen her!
   studentsTable.insertData();
@@ -86,6 +90,7 @@ void cleanConsole () {
   // Lidt en dårlig måde at klargøre konsollen
   // Nej
   // Nå okay xD
+
   for (int i = 0; i < 1000; i++) println();
 }
 
