@@ -11,8 +11,7 @@ BooksTable booksTable;
 
 void setup() {
   size(600, 600);
-  // Creates a file to contain the data if doesn't already exist
-  createOutput("./data/test.db");
+
   db = new SQLite(this, "data/test.db");  // open database file
 
   //Knapper
@@ -29,13 +28,13 @@ void setup() {
     //    + "VALUES (2, \"looool\", \"lol\")"
     //);
 
-    db.query("SELECT * FROM students_table");
+    db.query("SELECT * FROM books_table");
 
     while (db.next()) {
       //StudentsTable t = new StudentsTable();
       //db.setFromRow(t);
       //println(t);
-      println(db.getString("id"));
+      println(db.getString("ROWID"));
     }
   }
 }
@@ -55,22 +54,22 @@ void knapper() {
 void nyKlasse() {
   if (nyTabel.clicked()) {
     cleanConsole();
-
     createAllTables();
-    insertAllData();
     
     println("Der er lavet en ny tabel");
   }
+
   if (nulstilles.clicked()) {
     cleanConsole();
+    dropAllTables();
 
-    //code som nulstiller det hele
     println("Alt er nulstillet");
   }
+
   if (indlaesKlasser.clicked()) {
     cleanConsole();
+    insertAllData();
 
-    //code som indlæser alle klasser
     println("Alle klasser er indlæst");
   }
 }
@@ -80,9 +79,14 @@ void createAllTables() {
   db.query(classesTable.CREATE_TABLE);
   db.query(booksTable.CREATE_TABLE);
 }
+ 
+void dropAllTables() {
+  db.query(studentsTable.DROP_TABLE);
+  db.query(classesTable.DROP_TABLE);
+  db.query(booksTable.DROP_TABLE);
+}
 
 void insertAllData() {
-  // Indsæt dataen her!
   studentsTable.insertData();
   classesTable.insertData();
   booksTable.insertData();
