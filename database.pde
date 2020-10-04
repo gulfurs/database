@@ -11,6 +11,8 @@ BooksTable booksTable;
 
 void setup() {
   size(600, 600);
+  // Creates a file to contain the data if doesn't already exist
+  createOutput("./data/test.db");
   db = new SQLite(this, "data/test.db");  // open database file
 
   //Knapper
