@@ -45,7 +45,7 @@ void nyKlasse () {
   if (nyTabel.clicked()) {
     cleanConsole();
     db.query(StudentsTable.CREATE_TABLE);
-    db.query(Books.CREATE_TABLE);
+    db.query(ClassesTable.CREATE_TABLE);
 
     insertAllData();
     println("Der er lavet en ny tabel");
@@ -69,6 +69,7 @@ void insertAllData() {
 void cleanConsole () {
   // Lidt en dårlig måde at klargøre konsollen
   // Nej
+  // Nå okay xD
   for (int i = 0; i < 1000; i++) println();
 }
 

@@ -7,14 +7,4 @@ class StudentsTable {
                                       + "name VARCHAR(255),"
                                       + "profilePicture VARCHAR(255)"
                                       + ")";
-  
-  StudentsTable() {
-    this.studentNumber = 2;
-    this.name = "lol";
-    this.profilePicture = "https://lol";
-  }
-
-  String toString() {
-    return String.format("%s, %s", name, profilePicture);
-  }
 }
