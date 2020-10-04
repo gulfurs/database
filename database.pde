@@ -30,14 +30,15 @@ void setup() {
     db.query("SELECT * FROM students_table");
 
     while (db.next()) {
-      StudentsTable t = new StudentsTable();
-      db.setFromRow(t);
-      println(t);
+      //StudentsTable t = new StudentsTable();
+      //db.setFromRow(t);
+      //println(t);
+      println(db.getString("id"));
     }
   }
 }
 
-void draw () {
+void draw() {
   background(200);
   nyKlasse();
   knapper();
@@ -89,12 +90,10 @@ void cleanConsole () {
 }
 
 
-/*
-  TODO: Load text from the .txt files and save them in a database! 
+ /*
+ TODO: Load text from the .txt files and save them in a database! 
  TODO: Alt skal kunne nulstilles!
  TODO: Krypter noget data!
  TODO: Backup fil der skal kunne indlæses med alt indholdet (det er vel bare .txt filerne dem selv)
  */
- 
- 
- 
+
