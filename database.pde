@@ -5,6 +5,10 @@ Knap nyTabel;
 Knap nulstilles;
 Knap indlaesKlasser;
 
+StudentsTable studentsTable;
+ClassesTable classesTable;
+BooksTable booksTable;
+
 void setup() {
   size(600, 600);
   db = new SQLite(this, "data/test.db");  // open database file
@@ -13,6 +17,10 @@ void setup() {
   nyTabel = new Knap(width*0.05, height*0.05, width*0.1, height*0.1, "nyTabel");
   nulstilles = new Knap(width*0.15, height*0.05, width*0.1, height*0.1, "sletTabel");
   indlaesKlasser = new Knap(width*0.25, height*0.05, width*0.1, height*0.1, "IndlæsKlasser");
+
+  studentsTable = new StudentsTable();
+  classesTable = new ClassesTable();
+  booksTable = new BooksTable();
 
   if (db.connect()) {
     //db.query("INSERT INTO students_table (studentNumber, name, profilePicture)"
@@ -41,22 +49,26 @@ void knapper() {
   indlaesKlasser.update();
 }
 
-void nyKlasse () {
+void nyKlasse() {
   if (nyTabel.clicked()) {
     cleanConsole();
-    db.query(StudentsTable.CREATE_TABLE);
-    db.query(ClassesTable.CREATE_TABLE);
+
+    db.query(studentsTable.CREATE_TABLE);
+    db.query(classesTable.CREATE_TABLE);
+    db.query(booksTable.CREATE_TABLE);
 
     insertAllData();
     println("Der er lavet en ny tabel");
   }
   if (nulstilles.clicked()) {
     cleanConsole();
+
     //code som nulstiller det hele
     println("Alt er nulstillet");
   }
   if (indlaesKlasser.clicked()) {
     cleanConsole();
+
     //code som indlæser alle klasser
     println("Alle klasser er indlæst");
   }
@@ -64,6 +76,9 @@ void nyKlasse () {
 
 void insertAllData() {
   // Indsæt dataen her!
+  studentsTable.insertData();
+  classesTable.insertData();
+  booksTable.insertData();
 }
 
 void cleanConsole () {
