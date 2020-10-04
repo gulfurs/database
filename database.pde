@@ -89,10 +89,6 @@ void insertAllData() {
 }
 
 void cleanConsole () {
-  // Lidt en dårlig måde at klargøre konsollen
-  // Nej
-  // Nå okay xD
-
   for (int i = 0; i < 1000; i++) println();
 }
 
@@ -103,4 +99,3 @@ void cleanConsole () {
  TODO: Krypter noget data!
  TODO: Backup fil der skal kunne indlæses med alt indholdet (det er vel bare .txt filerne dem selv)
  */
-
